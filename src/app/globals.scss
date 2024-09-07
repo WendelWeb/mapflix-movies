@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+}
+
+.error{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--secondaryColor);
+    font-family: var(--font-montserra);
+
+    h1{
+        margin: 0;
+        font-size: 100px;
+        font-weight: 700;
+    }
+    p{
+        font-size: 16px;
+    }
+}

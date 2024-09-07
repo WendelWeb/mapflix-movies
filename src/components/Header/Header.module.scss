@@ -1,0 +1,49 @@
+// @use '../../styles/variables.scss';
+
+.header{
+    background: var(--whiteColor);
+    font-family: var(--font-roboto);
+}
+
+.header {
+  font-family: var(--font-roboto);
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--primaryColor);
+  color: var(--whiteColor);
+  padding: 0 20px;
+  a{
+    text-decoration: none;
+    color: unset;
+  }
+
+  .navigation {
+    display: flex;
+    justify-content: flex-end;
+    flex: 0.5;
+    gap: 20px;
+
+    nav {
+      ul {
+        list-style-type: none;
+        display: flex;
+        gap: 20px;
+        margin-right: 20px;
+      }
+    }
+
+    input {
+      min-width: 300px;
+      margin: 10px 0;
+      border-radius: 10px;
+      border: none;
+      padding-left: 10px;
+      outline: none;
+    }
+
+    > div {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
